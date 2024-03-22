@@ -1,3 +1,10 @@
+## How to install on UAV 
+It is necessary to install libgestreamer (necessary for common-audion package itself) and pavucontrol to communicate with a microphone. 
+```
+apt-get install libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev libgstreamer-plugins-bad1.0-dev gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.0-libav gstreamer1.0-tools gstreamer1.0-x gstreamer1.0-alsa gstreamer1.0-gl gstreamer1.0-gtk3 gstreamer1.0-qt5 gstreamer1.0-pulseaudio
+```
+
+
 # ROS audio\_common Package
 
 [![ROS1 CI](https://github.com/ros-drivers/audio_common/actions/workflows/main.yml/badge.svg)](https://github.com/ros-drivers/audio_common/actions/workflows/main.yml)
@@ -35,3 +42,9 @@ but they will probably be staged into a development branch for release into the 
 ## Support
 
 Please ask support questions on [ROS Answers](http://answers.ros.org/questions/).
+
+
+
+```
+sudo apt-get install -y pavucontrol
+```
